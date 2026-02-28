@@ -1,0 +1,101 @@
+Dataset,Algorithm,AUPRC,F1 (3σ),ADD (Delay 3σ),ARL (Time until false),Time per row (ms)
+Mean Abrupt,Shannon,0.7049,0.7879,4.15,397.29,10.65
+Mean Abrupt,Renyi (q=2),0.7913,0.7952,7.59,397.79,10.77
+Mean Abrupt,Tsallis (q=2),0.9434,0.8024,7.99,391.82,10.82
+Mean Abrupt,KLD,0.47,0.7952,5.64,380.91,16.72
+Mean Abrupt,Permutation,0.1054,0.1818,45.0,379.1,45.61
+Mean Abrupt,Bubble,0.0479,0.0952,45.0,366.51,63.86
+Mean Abrupt,Slope,0.0714,0.0583,26.0,400.16,49.9
+Mean Abrupt,Dispersion,0.45,0.773,14.89,367.97,58.34
+Mean Abrupt,Approximate,0.621,0.5915,19.71,397.86,69.38
+Mean Abrupt,Sample,0.2,0.3051,25.72,361.26,65.19
+Mean Smooth,Shannon,0.8168,0.7578,34.02,376.92,10.61
+Mean Smooth,Renyi (q=2),0.8582,0.75,37.48,387.38,10.66
+Mean Smooth,Tsallis (q=2),0.8509,0.75,40.08,387.38,10.54
+Mean Smooth,KLD,0.5569,0.7179,30.54,384.23,16.39
+Mean Smooth,Permutation,0.1135,0.1818,48.0,381.2,44.68
+Mean Smooth,Bubble,0.1082,0.1982,50.45,367.14,62.45
+Mean Smooth,Slope,0.0406,0.1132,42.33,379.86,49.53
+Mean Smooth,Dispersion,0.46,0.7654,31.79,378.47,58.42
+Mean Smooth,Approximate,0.6404,0.5714,45.22,388.08,66.12
+Mean Smooth,Sample,0.2208,0.3193,50.47,373.17,64.85
+Var Abrupt,Shannon,0.5058,0.8304,7.99,371.72,10.67
+Var Abrupt,Renyi (q=2),0.515,0.8571,12.47,375.8,10.78
+Var Abrupt,Tsallis (q=2),0.7433,0.8304,14.24,381.83,10.72
+Var Abrupt,KLD,0.5797,0.7179,9.64,374.09,16.38
+Var Abrupt,Permutation,0.1234,0.2143,36.67,382.03,44.55
+Var Abrupt,Bubble,0.0847,0.1308,40.43,385.04,62.1
+Var Abrupt,Slope,0.6596,0.8304,44.23,367.21,48.83
+Var Abrupt,Dispersion,0.6195,0.8095,41.49,375.52,61.16
+Var Abrupt,Approximate,0.9378,0.8439,25.49,384.3,61.55
+Var Abrupt,Sample,0.4062,0.4127,40.77,385.42,71.41
+Var Smooth,Shannon,0.5298,0.7879,31.71,388.83,10.61
+Var Smooth,Renyi (q=2),0.5544,0.7879,36.75,398.49,10.83
+Var Smooth,Tsallis (q=2),0.7749,0.7805,39.59,402.58,10.7
+Var Smooth,KLD,0.7836,0.7952,35.77,370.47,16.53
+Var Smooth,Permutation,0.0876,0.1481,35.12,366.33,44.59
+Var Smooth,Bubble,0.0951,0.1132,63.83,378.7,62.46
+Var Smooth,Slope,0.6404,0.6667,69.5,372.5,48.97
+Var Smooth,Dispersion,0.3447,0.7261,64.18,380.7,59.73
+Var Smooth,Approximate,0.9364,0.8506,43.07,385.88,69.36
+Var Smooth,Sample,0.4806,0.6207,52.96,363.3,214.4
+AR Abrupt,Shannon,0.1312,0.2609,66.4,375.31,10.53
+AR Abrupt,Renyi (q=2),0.1454,0.2759,69.5,383.18,10.79
+AR Abrupt,Tsallis (q=2),0.0804,0.1132,37.17,377.77,10.69
+AR Abrupt,KLD,0.0161,0.0392,10.0,382.16,16.69
+AR Abrupt,Permutation,0.6444,0.6301,68.35,365.49,44.76
+AR Abrupt,Bubble,0.4768,0.7578,30.21,382.54,62.69
+AR Abrupt,Slope,0.8253,0.7421,21.8,391.23,46.63
+AR Abrupt,Dispersion,0.0506,0.0769,14.5,363.33,58.02
+AR Abrupt,Approximate,0.2624,0.374,43.65,377.69,219.0
+AR Abrupt,Sample,0.261,0.3333,34.2,375.93,65.42
+AR Smooth,Shannon,0.5045,0.5915,57.21,362.89,10.49
+AR Smooth,Renyi (q=2),0.5547,0.5915,56.33,363.08,10.6
+AR Smooth,Tsallis (q=2),0.6703,0.6577,52.47,373.15,10.57
+AR Smooth,KLD,0.0607,0.0952,31.4,361.93,16.3
+AR Smooth,Permutation,0.4431,0.4496,54.76,402.12,44.45
+AR Smooth,Bubble,0.8361,0.7261,53.67,401.76,61.85
+AR Smooth,Slope,0.3224,0.4496,74.31,366.94,46.77
+AR Smooth,Dispersion,0.2427,0.2456,52.71,381.32,58.06
+AR Smooth,Approximate,0.422,0.4733,56.19,371.26,63.35
+AR Smooth,Sample,0.0837,0.2301,42.69,375.19,72.32
+Quasi Abrupt,Shannon,0.3528,0.3193,18.58,396.61,10.62
+Quasi Abrupt,Renyi (q=2),0.975,0.9247,15.01,405.64,10.69
+Quasi Abrupt,Tsallis (q=2),0.989,0.9247,14.45,401.93,11.0
+Quasi Abrupt,KLD,0.505,0.0,0.0,0.0,16.44
+Quasi Abrupt,Permutation,0.5062,0.8235,34.23,380.3,44.22
+Quasi Abrupt,Bubble,0.8115,0.8571,52.23,383.76,62.93
+Quasi Abrupt,Slope,0.495,0.9247,6.37,360.07,46.34
+Quasi Abrupt,Dispersion,0.9934,0.9744,48.38,452.4,59.17
+Quasi Abrupt,Approximate,0.7533,0.7097,54.33,390.48,73.48
+Quasi Abrupt,Sample,0.36,0.4127,49.08,380.33,58.33
+Quasi Smooth,Shannon,0.0164,0.0392,51.5,386.24,10.63
+Quasi Smooth,Renyi (q=2),0.8347,0.6842,50.67,383.25,10.87
+Quasi Smooth,Tsallis (q=2),0.7323,0.6014,51.21,383.25,10.8
+Quasi Smooth,KLD,0.1263,0.0,0.0,0.0,16.57
+Quasi Smooth,Permutation,0.5147,0.8095,44.13,389.31,46.11
+Quasi Smooth,Bubble,0.8047,0.7654,81.4,369.24,62.79
+Quasi Smooth,Slope,0.5776,0.8827,39.29,362.29,47.15
+Quasi Smooth,Dispersion,0.8963,0.8304,66.85,405.36,58.37
+Quasi Smooth,Approximate,0.2056,0.2456,39.36,387.5,72.28
+Quasi Smooth,Sample,0.867,0.773,47.62,381.42,55.28
+Cauchy Abrupt,Shannon,0.8051,0.8095,29.72,376.09,10.66
+Cauchy Abrupt,Renyi (q=2),0.8555,0.8095,36.63,397.19,10.73
+Cauchy Abrupt,Tsallis (q=2),0.8714,0.7952,40.48,391.18,10.64
+Cauchy Abrupt,KLD,0.7758,0.7013,33.22,393.0,16.46
+Cauchy Abrupt,Permutation,0.0988,0.2301,46.0,369.97,44.55
+Cauchy Abrupt,Bubble,0.1125,0.2143,51.83,390.67,61.97
+Cauchy Abrupt,Slope,0.335,0.4252,58.7,387.84,49.51
+Cauchy Abrupt,Dispersion,0.1637,0.1982,53.0,367.14,59.66
+Cauchy Abrupt,Approximate,0.8255,0.7578,46.0,380.78,60.95
+Cauchy Abrupt,Sample,0.3949,0.4496,43.41,397.95,59.17
+Cauchy Smooth,Shannon,0.8164,0.7179,60.16,379.46,10.59
+Cauchy Smooth,Renyi (q=2),0.7709,0.6755,65.55,379.25,10.91
+Cauchy Smooth,Tsallis (q=2),0.6837,0.6014,65.02,378.24,10.87
+Cauchy Smooth,KLD,0.7156,0.6842,65.98,388.17,16.84
+Cauchy Smooth,Permutation,0.0764,0.0952,58.0,384.34,44.75
+Cauchy Smooth,Bubble,0.0978,0.1481,51.88,376.78,63.91
+Cauchy Smooth,Slope,0.217,0.3193,65.42,373.38,49.78
+Cauchy Smooth,Dispersion,0.0966,0.1818,45.5,384.37,60.7
+Cauchy Smooth,Approximate,0.6004,0.5185,72.77,373.98,77.34
+Cauchy Smooth,Sample,0.2105,0.3051,69.5,375.62,74.92
